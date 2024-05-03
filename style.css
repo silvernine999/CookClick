@@ -1,0 +1,50 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FAF1E4; /* 부드러운 베이지 */
+    color: #435334; /* 진한 녹색 */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #CEDEBD; /* 연한 녹색 */
+    color: #435334; /* 진한 녹색 */
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #9EB384; /* 중간 녹색 */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section#main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #CEDEBD; /* 연한 녹색 */
+    color: #435334; /* 진한 녹색 */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

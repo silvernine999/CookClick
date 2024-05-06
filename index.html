@@ -22,10 +22,67 @@
             <img src="images/image2.jpg" alt="Delicious Dish 2">
             <img src="images/image3.jpg" alt="Delicious Dish 3">
         </div>
-        <section id="main-content">
-            <h2>Featured Recipes</h2>
-            <p>Explore top recipes and new ideas for your next dinner!</p>
+        <div class="search-container">
+            <form action="/search" method="GET">
+                <input type="text" placeholder="Search for recipes..." name="search">
+                <button type="submit">Search</button>
+            </form>
+        </div>        
+        
+        <section id="latest-recipes">
+            <h2>Latest Recipes</h2>
+            <div class="recipe-gallery">
+                <div class="recipe-card">
+                    <img src="latest1.jpg" alt="Recipe 1">
+                    <h3>Recipe Title 1</h3>
+                    <p>Short description of the recipe...</p>
+                </div>
+                <div class="recipe-card">
+                    <img src="latest2.jpg" alt="Recipe 2">
+                    <h3>Recipe Title 2</h3>
+                    <p>Short description of the recipe...</p>
+                </div>
+                <div class="recipe-card">
+                    <img src="latest3.jpg" alt="Recipe 3">
+                    <h3>Recipe Title 3</h3>
+                    <p>Short description of the recipe...</p>
+                </div>
+                <div class="recipe-card">
+                    <img src="latest4.jpg" alt="Recipe 4">
+                    <h3>Recipe Title 4</h3>
+                    <p>Short description of the recipe...</p>
+                </div>
+                <!-- More recipes -->
+            </div>
         </section>
+        
+        <section id="popular-recipes">
+            <h2>Popular Recipes</h2>
+            <div class="recipe-gallery">
+                <div class="recipe-card">
+                    <img src="popular1.jpg" alt="Recipe 1">
+                    <h3>Recipe Title 1</h3>
+                    <p>Short description of the recipe...</p>
+                </div>
+                <div class="recipe-card">
+                    <img src="popular2.jpg" alt="Recipe 2">
+                    <h3>Recipe Title 2</h3>
+                    <p>Short description of the recipe...</p>
+                </div>
+                <div class="recipe-card">
+                    <img src="latest3.jpg" alt="Recipe 3">
+                    <h3>Recipe Title 3</h3>
+                    <p>Short description of the recipe...</p>
+                </div>
+                <div class="recipe-card">
+                    <img src="latest4.jpg" alt="Recipe 4">
+                    <h3>Recipe Title 4</h3>
+                    <p>Short description of the recipe...</p>
+                </div>
+                <!-- More recipes -->
+            </div>
+        </section>        
+
         <footer>
             <p>Contact Us | Terms & Conditions</p>
         </footer>

@@ -1,90 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Welcome to Our Cooking Platform</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-            <h1>Welcome to CookSpot!</h1>
-            <nav>
+            <span>CookClick</span>
+            <form>
+                <input type="text" placeholder="레시피 검색..." name="search">
+                <button type="submit">검색</button>
+            </form>
+            <div class="header-right">
+                <button type="button" onclick="location.href='login.html'">로그인</button>
+                <button type="button" onclick="location.href='signup.html'">회원가입</button>
+            </div>
+        </header>
+        <div class="main">
+            <nav class="sidebar">
                 <ul>
-                    <li><a href="#recipes">Recipes</a></li>
-                    <li><a href="#order">Order Ingredients</a></li>
-                    <li><a href="#community">Community</a></li>
+                    <li>레시피
+                        <ul>
+                            <li>한식</li>
+                            <li>중식</li>
+                            <li>일식</li>
+                            <li>양식</li>
+                            <li>디저트</li>
+                            <li>야식</li>
+                            <li>밑반찬</li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
-        </header>
-        <div class="slider">
-            <img src="images/image1.jpg" alt="Delicious Dish 1">
-            <img src="images/image2.jpg" alt="Delicious Dish 2">
-            <img src="images/image3.jpg" alt="Delicious Dish 3">
-        </div>
-        <div class="search-container">
-            <form action="/search" method="GET">
-                <input type="text" placeholder="Search for recipes..." name="search">
-                <button type="submit">Search</button>
-            </form>
-        </div>        
-        
-        <section id="latest-recipes">
-            <h2>Latest Recipes</h2>
-            <div class="recipe-gallery">
-                <div class="recipe-card">
-                    <img src="latest1.jpg" alt="Recipe 1">
-                    <h3>Recipe Title 1</h3>
-                    <p>Short description of the recipe...</p>
+            <nav class="contents">
+                <div class="banner">
+                    <img src="images/image1.jpg">
+                    <img src="images/image2.jpg">
+                    <img src="images/image3.jpg">
                 </div>
-                <div class="recipe-card">
-                    <img src="latest2.jpg" alt="Recipe 2">
-                    <h3>Recipe Title 2</h3>
-                    <p>Short description of the recipe...</p>
-                </div>
-                <div class="recipe-card">
-                    <img src="latest3.jpg" alt="Recipe 3">
-                    <h3>Recipe Title 3</h3>
-                    <p>Short description of the recipe...</p>
-                </div>
-                <div class="recipe-card">
-                    <img src="latest4.jpg" alt="Recipe 4">
-                    <h3>Recipe Title 4</h3>
-                    <p>Short description of the recipe...</p>
-                </div>
-                <!-- More recipes -->
-            </div>
-        </section>
-        
-        <section id="popular-recipes">
-            <h2>Popular Recipes</h2>
-            <div class="recipe-gallery">
-                <div class="recipe-card">
-                    <img src="popular1.jpg" alt="Recipe 1">
-                    <h3>Recipe Title 1</h3>
-                    <p>Short description of the recipe...</p>
-                </div>
-                <div class="recipe-card">
-                    <img src="popular2.jpg" alt="Recipe 2">
-                    <h3>Recipe Title 2</h3>
-                    <p>Short description of the recipe...</p>
-                </div>
-                <div class="recipe-card">
-                    <img src="latest3.jpg" alt="Recipe 3">
-                    <h3>Recipe Title 3</h3>
-                    <p>Short description of the recipe...</p>
-                </div>
-                <div class="recipe-card">
-                    <img src="latest4.jpg" alt="Recipe 4">
-                    <h3>Recipe Title 4</h3>
-                    <p>Short description of the recipe...</p>
-                </div>
-                <!-- More recipes -->
-            </div>
-        </section>        
+                <div class="link_major">
 
-        <footer>
-            <p>Contact Us | Terms & Conditions</p>
-        </footer>
+                </div>
+                <div class="today">
+                    <span>오늘의 테마</span><br>
+                    <a href="" target="today"># 저탄고지</a>
+                    <a href="" target="today"># 술안주</a>
+                    <a href="" target="today"># 다이어트 간식</a>
+                    <iframe name="today" src="asdf" width="100%" height="500px"></iframe>
+                </div>
+            </nav>
+        </div>
+
     </body>
 </html>

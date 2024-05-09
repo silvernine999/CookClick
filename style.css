@@ -1,5 +1,7 @@
 body {
     background-color: #FAF1E4;
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -76,7 +78,7 @@ header button[type="submit"]:hover {
 
 .main {
     display: flex;
-    height: 100%;
+    flex-direction: column;
     width: 100%;
 }
 
@@ -117,10 +119,16 @@ header button[type="submit"]:hover {
     padding: 5px 10px;
 }
 
+.menu {
+    width: 100%;
+    height: 10vh;
+    background-color: wheat;
+}
+
 .contents {
     flex-grow: 1;
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .contents > div {
@@ -129,7 +137,7 @@ header button[type="submit"]:hover {
 
 .banner {
     width: 80%;
-    margin-top: 50px;
+    margin: 50px auto;
     height: 300px;
     overflow: hidden;
 }

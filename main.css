@@ -53,11 +53,16 @@ body {
 }
 
 .menu > a {
-    height: 100%;
-    aspect-ratio: 1 / 1;
+    width: 8vw;
+    height: 8vw;
     background-color: wheat;
     text-align: center;
+    line-height: 8vw;
+    font-size: 2vw;
+    color: white;
+    text-decoration: none;
     border-radius: 100%;
+    background-size: 100%;
 }
 
 .contents {
@@ -70,7 +75,7 @@ body {
     position: relative;
 }
 
-.banner {
+/* .banner {
     width: 80%;
     margin: 50px auto;
     height: 300px;
@@ -104,7 +109,7 @@ body {
 
 .banner img:nth-child(3) {
     animation-delay: 6s;
-}
+} */
 
 .link_major {
     height: 150px;

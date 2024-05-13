@@ -2,20 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="kfood.css">
     <title>양식페이지</title>
 </head>
 <body>
+    <div id="topmenu">
+        <a href="signup.html">회원가입</a>
+        <a href="login.html">로그인</a>
+    </div>
     <header>
-        <span><a href="index.html">CookClick</a></span>
+        <a href="index.html">CookClick</a>
         <form>
             <input type="text" placeholder="레시피 검색..." name="search">
             <button type="submit">검색</button>
         </form>
-        <div class="header-right">
-            <button type="button" onclick="location.href='login.html'">로그인</button>
-            <button type="button" onclick="location.href='signup.html'">회원가입</button>
-        </div>
     </header>
     <div class="main">
         <nav class="sidebar">

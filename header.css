@@ -1,18 +1,27 @@
 /* #region Header */
-.top {
+#topmenu {
     width: 100%;
     height: 5vh;
     background-color: #325c4b;
     position: sticky;
     top: 0;
     z-index: 100;
+    line-height: 5vh;
 }
+#topmenu > a {
+    float: right;
+    color: white;
+    text-decoration: none;
+    margin-right: 2vw;
+}
+
 header {
     background-image:url(images/header.png);
     background-size: 100%;
-    background-position: center;
+    background-position: center center;
+    background-repeat: no-repeat;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     height: 50vh;
 }
@@ -20,7 +29,8 @@ header a {
     font-size: 50px;
     color: #fff;
     font-weight: bolder;
-    margin: 0px 50px;
+    font-size: 56pt;
+    margin: 10vh 0;
     text-decoration: none;
 }
 /* 검색 폼 스타일링 */

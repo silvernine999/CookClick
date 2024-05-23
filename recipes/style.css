@@ -77,3 +77,31 @@ body {
 /* #endregion */
 
 /* #endregion */
+
+/* #region Cart */
+
+#cart {
+    position: fixed;
+    top: 75%;
+    left: 75%;
+    width: 20%;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    transform: translateY(-100%);
+}
+
+#cart img {
+    background-color: #49403c;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#cart .content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s;
+}
+
+/* #endregion */

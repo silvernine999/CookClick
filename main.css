@@ -48,18 +48,17 @@ body {
     height: 25vh;
     display: flex;
     justify-content: space-between;
-    padding: 5vh 15vw;
+    padding: 5vh 21vw;
     box-sizing: border-box;
 }
 
 .menu > a {
-    width: 8vw;
-    height: 8vw;
-    background-color: wheat;
+    width: 7vw;
+    height: 7vw;
     text-align: center;
-    line-height: 8vw;
-    font-size: 2vw;
-    color: white;
+    line-height: 16vw;
+    font-size: 1vw;
+    color: #49403c;
     text-decoration: none;
     border-radius: 100%;
     background-size: 100%;

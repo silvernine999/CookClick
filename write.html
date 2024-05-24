@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="main.css">
+        <style>
+            #main{
+                display: flex;
+                justify-content: center;
+                font-size: larger;
+                font-weight: bolder;
+            }
+            .button{
+                
+                background-color: #aeaeb6;
+                color: white;
+                width: 200px;
+                height: 100px;
+                padding: 20px;
+                border: none;
+                
+            }
+            #mainimg{
+                text-align: center;
+            }
+            .button2{
+                background-color: #5b5b5f;
+                color: white;
+                border: none;
+                border-radius: 10px;
+                padding: 5px;
+                width: 80px;
+            }
+            label{
+                margin: 20px;
+            }
+            textarea{
+                border-radius: 10px;
+            }
+            .recipe{
+                text-align: center;
+                padding: 30px;
+            
+            }
+            .image{
+                text-align: center;
+            }
+            .upload{
+                text-align: center;
+                margin: 20px;
+            }
+            nav{
+                background-color: #f1f1f2;
+            }
+            input[type=text],input[type=number]{
+                height: 30px;
+                text-align: center;
+            }
+            input[type=number]{
+                text-align: center;
+                font-size: 15px; /* 폰트 크기 조절 */
+                width: 100px;
+            }
+        
+
+
+
+        </style>
+    </head>
+    <body>
+        <div id="topmenu">
+            <div>
+                <a href="">Write</a>
+                <a href="">Event</a>
+                <a href="">Like</a>
+                <a href="">Cart</a>
+                <a href="">MyPage</a>
+            </div>
+            <div>
+                <a href="login.html">Sign in</a>
+                <a href="signup.html">Sign up</a>
+            </div>
+        </div>
+        <header>
+            <a href="">CookClick</a>
+            <form>
+                <input type="text" placeholder="검색..." name="search">
+                <button type="submit">검색</button>
+            </form>
+        </header>
+        <nav>
+        <p id="main"> 나의 레시피 공유하기 </p>
+    <div id="mainimg">
+        <input type="button" value="대표 사진 업로드" class="button">
+    </div><br>
+    <div class="recipe">
+        난이도 
+        <select>
+            <option>난이도</option>
+            <option>★☆☆☆☆</option>
+            <option>★★☆☆☆</option>
+            <option>★★★☆☆</option>
+            <option>★★★★☆</option>
+            <option>★★★★★</option>
+        </select>
+        소요 시간 
+        <select>
+            <option> 소요 시간</option>
+            <option>30분 이하</option>
+            <option>45분</option>
+            <option>1시간</option>
+            <option>1시간 반</option>
+            <option>2시간 이상</option>
+        </select><br><br>
+    <div class="input">
+        <label>레시피 제목</label><input type="text" placeholder="레시피 제목을 적어주세요"><br><br>
+
+        <label>재료</label><input type="text" placeholder="Ex)돼지고기">
+        <label>수량</label><input type="number" min="0" >
+        <label>단위</label><input type="text" placeholder="Ex)g,ml,개"><br><br>
+
+        <label>재료</label><input type="text" placeholder="Ex)돼지고기">
+        <label>수량</label><input type="number" min="0" >
+        <label>단위</label><input type="text" placeholder="Ex)g,ml,개"><br><br>
+
+        <label>재료</label><input type="text" placeholder="Ex)돼지고기">
+        <label>수량</label><input type="number" min="0" >
+        <label>단위</label><input type="text" placeholder="Ex)g,ml,개"><br><br>
+
+        <label>재료</label><input type="text" placeholder="Ex)돼지고기">
+        <label>수량</label><input type="number" min="0" >
+        <label>단위</label><input type="text" placeholder="Ex)g,ml,개"><br><br>
+
+        <label>재료</label><input type="text" placeholder="Ex)돼지고기">
+        <label>수량</label><input type="number" min="0" >
+        <label>단위</label><input type="text" placeholder="Ex)g,ml,개"><br><br>
+    </div>
+
+        <input type="button" value="+ 추가" class="button2"><br>
+    </div>
+    <div class="image">
+        <input type="button" value="사진 업로드" class="button">
+        <label>STEP1</label><textarea placeholder="STEP1" cols="30" rows="5"></textarea><br>
+
+        <input type="button" value="사진 업로드"class="button">
+        <label>STEP2</label><textarea placeholder="STEP2" cols="30" rows="5"></textarea><br>
+
+        <input type="button" value="사진 업로드" class="button">
+        <label>STEP3</label><textarea placeholder="STEP3" cols="30" rows="5"></textarea><br>
+
+        <input type="button" value="사진 업로드" class="button">
+        <label>STEP4</label><textarea placeholder="STEP4" cols="30" rows="5"></textarea><br>
+        <input type="button" value="+ 추가" class="button2"><br>
+    </div>
+    <div class="upload">
+        <input type="button" value="공개하기" class="button2">
+        <input type="button" value="취소" class="button2">
+    </div>
+</nav>
+    </body>
+</html>

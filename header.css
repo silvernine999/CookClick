@@ -37,6 +37,10 @@ header a {
     font-size: 56pt;
     margin: 6vh 0;
     text-decoration: none;
+    transition: .5s ease-in-out;
+}
+header > a:hover {
+    color: #435334;
 }
 /* 검색 폼 스타일링 */
 header form {
@@ -71,6 +75,7 @@ header button[type="submit"] {
     color: white; /* 글자색 */
     cursor: pointer; /* 커서 스타일 */
     transition: background-color 0.3s; /* 부드러운 배경색 전환 */
+    margin-left: 10px;
 }
 /* 버튼 호버 시 */
 header button[type="submit"]:hover {

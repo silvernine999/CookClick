@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="menu.css">
     <style>
        *{
         margin: 0;
@@ -13,7 +14,7 @@
             width: 500px;
             border-radius: 10px;
         }
-        form{
+        .main {
             display: flex;
             margin: 0% auto;
             text-align: center;
@@ -22,7 +23,7 @@
             line-height: 70px;
         
         }
-        button{
+        .main button{
             border: none;
             width: 500px;
             height: 50px;
@@ -30,20 +31,23 @@
            
 
         }
-        .fv{
-          border: none;
-          width: 250px;
-          height: 50px;
-          border-radius: 20px;
-          margin-bottom: 50px;
+        #urlcopy{
+            width: 250px;
         }
+       
+        
         h1{
             text-align: center;
         }
         footer{
             height: 30vh;
-            background-color: #0e4a30;
+            background-color: #325c4b;
         }
+        button:hover{
+            background-color: #cecbcb;
+            border: 1px solid #cecbcb;
+        }
+        
     </style>
 </head>
 <body>
@@ -51,13 +55,13 @@
         <div>
             <a href="write.html">Write</a>
             <a href="event.html">Event</a>
-            <a href="">Like</a>
-            <a href="">Cart</a>
-            <a href="">MyPage</a>
+            <a href="like.html">Like</a>
+            <a href="cart.html">Cart</a>
+            <a href="maypage.html">MyPage</a>
         </div>
         <div>
             <a href="login.html">Sign in</a>
-            <a href="signup.html">Sign up</a>
+            <a href="agree.html">Sign up</a>
         </div>
     </div>
     <header>
@@ -66,19 +70,21 @@
             <input type="text" placeholder="레시피 검색..." name="search">
             <button type="submit">검색</button>
         </form>
-    </header>
-
-    <h1>Event</h1>
+    </header><br><br>
+    <h1>Event</h1><br><br>
     <hr>
+    <br>
 
-    <form>
+    <form class="main">
     <div class="event">
         <h3>친구 초대 30% COUPON</h3>
-        <img src="friend.png" alt=""><br>
+        <img src="images/friend.png" alt=""><br>
         <button class="fv" id="urlcopy"> 친구 초대하기</button>
-        <button onclick="showCouponAlert()" class="fv">친구 초대쿠폰 받기</button><br>
+        <button onclick="showCouponAlert()" class="fv" style="width: 250px;">친구 초대쿠폰 받기</button><br>
+        
+        <br>
         <h3>첫 주문 100원!</h3>
-        <img src="first.png" alt="">
+        <img src="images/first.png" alt="">
         
         <button onclick="first()">첫 주문 쿠폰 받기</button>
       </div>
@@ -117,3 +123,4 @@
 </body>
 
 </html>
+

@@ -5,22 +5,28 @@ body {
 }
 
 /*한식메뉴창css*/
-h3{ text-align: center;
+.main h3{ text-align: center;
     color: #49403c;
 }
 
-div p {text-align: center;
-        font-size: 20px;
-        color: #49403c;
+.main div p {
+    text-align: center;
+    font-size: 20px;
+    color: #49403c;
 }
 
-img{
+.main a {
+    text-decoration: none;
+    transition: scale 0.2s;
+}
+
+.main a:hover {
+    scale: 1.1;
+}
+
+.main a img{
     margin: 10px;
 }
-
-
-
-
 
 #first{
     display: flex;

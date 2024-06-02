@@ -9,12 +9,6 @@ body {
     color: #49403c;
 }
 
-.main div p {
-    text-align: center;
-    font-size: 20px;
-    color: #49403c;
-}
-
 .main a {
     text-decoration: none;
     transition: scale 0.2s;
@@ -24,8 +18,40 @@ body {
     scale: 1.1;
 }
 
-.main a img{
+.main a img {
     margin: 10px;
+}
+
+.main a p {
+    text-align: center;
+    line-height: 48px;
+    font-size: 20px;
+    color: #49403c;
+}
+
+.like {
+    cursor: pointer;
+}
+
+.like input[type="checkbox"] {
+    display: none;
+}
+
+.like span {
+    font-size: 32px;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+}
+
+.like input[type="checkbox"]:checked + span:before {
+    content: '♥';
+    color: red;
+}
+
+.like input[type="checkbox"]:not(:checked) + span:before {
+    content: '♡';
+    color: black;
 }
 
 #first{

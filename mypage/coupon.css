@@ -1,17 +1,25 @@
 *{background-color: #fefeff;}
-#coupon-div > div{
-    width: 242.7px;
-    height: 150px; /* 일단 보이게 회색 쿠폰 들어갈 박스 */
-    background-color: #fefeff;
-    margin: 30px;
-    margin-top: 50px;
-}
-#coupon-div > div img{
-    width: 300px;
-    height: 150px;
+img{
+    width: 600px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+
 }
 
-#coupon-div{
+input{
+    width: 100px;
+    height: 50px;
     display: flex;
-    justify-content: center;
+    margin: auto;
+    border: 1px solid #c4c4c4;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+input:hover{
+    background-color: #c4c4c4;
 }

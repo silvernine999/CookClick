@@ -1,0 +1,17 @@
+*{background-color: #fefeff;}
+#coupon-div > div{
+    width: 242.7px;
+    height: 150px; /* 일단 보이게 회색 쿠폰 들어갈 박스 */
+    background-color: #fefeff;
+    margin: 30px;
+    margin-top: 50px;
+}
+#coupon-div > div img{
+    width: 300px;
+    height: 150px;
+}
+
+#coupon-div{
+    display: flex;
+    justify-content: center;
+}

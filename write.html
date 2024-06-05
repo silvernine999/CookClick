@@ -6,14 +6,10 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="main.css">
     <style>
-        .container{
-            width: 70vw;
-            margin: 10px auto;
-            border-left: #325c4b 2px solid;
-            border-right: #325c4b 2px solid;
-        }
+      
         body {
             background-color: #fefeff;
+            font-family: "Noto Sans KR", Helvetica, "Helvetica Neue", Arial, "sans-serif";
         }
         h1 {
             display: flex;
@@ -22,7 +18,7 @@
             font-weight: bolder;
             margin-bottom: 30px;
             margin-top: 50px;
-            color: #5E5E5E;
+            color: #131313;
         }
         .button {
             width: 200px;
@@ -40,7 +36,9 @@
             border-radius: 10px;
             padding: 5px;
             width: 80px;
+
         }
+        
         label {
             margin: 20px;
         }
@@ -81,10 +79,12 @@
         }
         select {
             text-align: center;
+            align-items: center;
+            justify-content: center;
             appearance: none;
             color: #444;
             background-color: #fff;
-            padding: 0.6em 1.4em 0.5em 0.8em;
+            padding: 0.5em 1.5em 0.5em 1.5em;
             margin: 10px;
             border: 2px solid #d4d2d2;
             border-radius: 5px;
@@ -106,6 +106,7 @@
             margin-bottom: px;
             padding-bottom: 0px
         }
+        
         .step {
             padding-top: 40px;
         }
@@ -118,12 +119,25 @@
             padding: 10px 0;
             margin-top: 30px;
             margin-bottom: 50px;
+            display: flex;
+            justify-content: center;
         }
         .upload input {
             margin: 5px;
             padding: 10px 50px;
             text-align: center;
-            width: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;            
+        }
+        input[type=button]:hover{
+            background-color: #325c4b; 
+            cursor: pointer; 
+
+        }
+        .upload input:hover{
+            background-color: #325c4b;
         }
         footer{
             height: 100px;
@@ -155,19 +169,18 @@
     </header>
     <div class="container">
         <h1> 나의 레시피 공유하기 </h1>
+        <hr><br>
         <nav>
             <div id="mainimg">
-                <input type="image" src="단락 텍스트.PNG">
+                <input type="image" src="images/단락 텍스트.png">
             </div><br>
             <div class="recipe">
                 난이도
                 <select>
                     <option>난이도</option>
-                    <option>★☆☆☆☆</option>
-                    <option>★★☆☆☆</option>
-                    <option>★★★☆☆</option>
-                    <option>★★★★☆</option>
-                    <option>★★★★★</option>
+                    <option>★☆☆</option>
+                    <option>★★☆</option>
+                    <option>★★★</option>
                 </select>
                 소요 시간
                 <select>
@@ -207,19 +220,19 @@
             </div>
             <div class="section">
                 <div class="step">
-                    <input type="image" src="레시피 사진 업로드.png" class="button">
+                    <input type="image" src="images/레시피 사진 업로드.png" class="button">
                     <textarea placeholder="STEP 1 레시피를 입력해주세요" cols="30" rows="5"></textarea><br>
                 </div>
                 <div class="step">
-                    <input type="image" src="레시피 사진 업로드.png" class="button">
+                    <input type="image" src="images/레시피 사진 업로드.png" class="button">
                     <textarea placeholder="STEP 2 레시피를 입력해주세요" cols="30" rows="5"></textarea><br>
                 </div>
                 <div class="step">
-                    <input type="image" src="레시피 사진 업로드.png" class="button">
+                    <input type="image" src="images/레시피 사진 업로드.png" class="button">
                     <textarea placeholder="STEP 3 레시피를 입력해주세요" cols="30" rows="5"></textarea><br>
                 </div>
                 <div class="step">
-                    <input type="image" src="레시피 사진 업로드.png" class="button">
+                    <input type="image" src="images/레시피 사진 업로드.png" class="button">
                     <textarea placeholder="STEP 4 레시피를 입력해주세요" cols="30" rows="5"></textarea><br>
                 </div>
 

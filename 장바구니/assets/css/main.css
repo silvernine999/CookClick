@@ -1,0 +1,123 @@
+body {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    display:none;
+}
+
+section{
+    width: 80%;
+    padding: 0 0 2%;
+    margin: 0 auto;
+}
+section img{
+    width: 18px;
+}
+section h1{
+    width: 80%;
+    margin: 0 auto;
+    color: #222;
+    border-bottom: 1.5px solid #888;
+}
+section .check{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    font-size: -0.2em;
+}
+.row-data{
+    display: flex;
+    width: 80%; height: 100px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd;
+    padding: 0;
+
+}
+.row-data .check2{
+    padding: 40px 0;
+}
+.row-data img{
+    width: 100px;
+    height: 100px;
+}
+.row-data .mid-info{
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    font-size: 1em;
+}
+.row-data .mid-info div {
+    height: 50%;
+    padding: 10px;
+}
+.row-data .mid-info .name {
+    border-bottom: 1px solid #ddd;
+}
+.row-data .name .box{
+    border: 1px solid #888;
+    width: 15px; height: 15px;
+    float: right;
+    padding: 0;
+    text-align: center;
+    font-size: 11px;
+}
+.row-data .price{
+    display: flex;
+    border-left: 1px solid #ddd;
+    align-items: center;
+}
+.option span{
+    font-size: 0.8em;
+    color: #87490cff;
+    padding: 10px;
+    margin: 0% -1% 0% -2%;
+}
+.option input{
+    width: 50px; height: 18px;
+}
+
+p {
+    margin:1% 0% -3% 17%;
+    color: #87490cff;
+    border:4px solid #ddd;
+    width: 60%;
+    padding: 1% 3% 1% 3%;
+}
+
+label {
+    float:right;
+    flex:center;
+}
+
+select {
+    border-radius: 20px;
+    border:1px solid #87490cff;
+    color: #87490cff;
+    height: 27px;
+    width: 100px;
+    text-align: center;
+    font-size: 1em;
+    margin: -1% 0% 0% 0%
+}
+
+.btn {
+    background-color: #325c4b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    float: right;
+    margin-right: 200px;
+    margin: -1% 26% 0% 0%;
+}

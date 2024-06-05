@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>장바구니</title>
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="../menu.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <style>
+        hr{
+            width: 70%;
+            margin-left: 15%;
+        }
        *{
-        margin: 1px;
+        margin: 0px;
        }
         img{
             width: 500px;
@@ -22,6 +26,8 @@
             width: 1000px;
             height: 50px;
             line-height: 70px;
+            
+            
         
         }
         .main button{
@@ -48,6 +54,30 @@
             background-color: #cecbcb;
             border: 1px solid #cecbcb;
         }
+        .coupon{
+            border: 1px solid #cecbcb;
+            width: 50%;
+            height:35px;
+            text-align: center;
+            border-radius: 10px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto ;
+            
+            
+        }
+        
+        select{
+            color: black;
+            margin: 20px;
+            width: 1000x;
+        }
+      form
+        
+    
+        
     </style>
 </head>
 <body>
@@ -71,11 +101,11 @@
             <button type="submit">검색</button>
         </form>
     </header><br><br>
-    <h1>장바구니</h1>
-    <hr>
-    <div style="overflow:scroll; height:350px;">
+    <h1>장바구니</h1><br><br>
+    <hr><br>
+    <div style="overflow:scroll; height:550px;">
         <section>
-            <div class="check"><input type="checkbox">모두선택</div>
+            <div class="check"><input type="checkbox">모두선택</div><br>
             <div class="row-data">
                 <div class="check2"><input type="checkbox"></div>
                 <div class="img"><img src="assets/img/header.png"></div>
@@ -139,14 +169,29 @@
             </div>            
         </section>
     </div>
-    <p>총 상품가격 <b>3,000</b> 원 
-        <label for="select">사용가능한 쿠폰
-            <select id="select">
-                <option value="30%">30% 할인</option>
-                <option value="30%">100원 할인</option>
-             </select>
-            </lebel>
-    </p>
+
+    <div class="coupon">
+        상품 쿠폰 할인
+        <select>
+            <option value="select" >선택</option>
+            <option value="30">30% 할인 Coupon</option>
+            <option value="100">100원 Coupon</option>
+        </select>
+    </div>
+<form class="pp">
+    <div class="price">
+        <h4>최종 결제금액</h4><br>
+        <hr>
+        상품금액 
+        <hr class="hr1"><br>
+        배송비
+        <hr class="hr1"><br>
+        할인금액
+        <hr class="hr1"><br>
+        <h4>결제금액</h4>
+    </div>
+</form>
+
     <form class="main">
         <div style="text-align: center;">
             <button class="btn">구매하기</button>

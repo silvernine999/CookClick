@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>장바구니</title>
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <style>
+       *{
+        margin: 1px;
+       }
+        img{
+            width: 500px;
+            border-radius: 10px;
+        }
+        .main {
+            display: flex;
+            margin: 5% auto;
+            text-align: center;
+            width: 1000px;
+            height: 50px;
+            line-height: 70px;
+        
+        }
+        .main button{
+            border: none;
+            width: 500px;
+            height: 50px;
+            border-radius: 20px;
+           
+
+        }
+        #urlcopy{
+            width: 250px;
+        }
+       
+        
+        h1{
+            text-align: center;
+        }
+        footer{
+            height: 30vh;
+            background-color: #325c4b;
+        }
+        button:hover{
+            background-color: #cecbcb;
+            border: 1px solid #cecbcb;
+        }
+    </style>
+</head>
+<body>
+    <div id="topmenu">
+        <div>
+            <a href="write.html">Write</a>
+            <a href="event.html">Event</a>
+            <a href="like.html">Like</a>
+            <a href="cart.html">Cart</a>
+            <a href="maypage.html">MyPage</a>
+        </div>
+        <div>
+            <a href="login.html">Sign in</a>
+            <a href="agree.html">Sign up</a>
+        </div>
+    </div>
+    <header>
+        <a href="index.html">CookClick</a>
+        <form>
+            <input type="text" placeholder="레시피 검색..." name="search">
+            <button type="submit">검색</button>
+        </form>
+    </header><br><br>
+    <h1>장바구니</h1>
+    <hr>
+    <div style="overflow:scroll; height:350px;">
+        <section>
+            <div class="check"><input type="checkbox">모두선택</div>
+            <div class="row-data">
+                <div class="check2"><input type="checkbox"></div>
+                <div class="img"><img src="assets/img/header.png"></div>
+                <div class="mid-info">
+                    <div class="name">
+                        <span>초콜릿</span>
+                        <div class="box">
+                            <span>X</span>
+                        </div>
+                    </div>
+                    <div class="option">
+                        <span>1,000원</span>
+                        <input type="number" min="1" max="10" step="1" value="1">
+                    </div>
+                </div>
+                <div class="price">
+                    <span>1,000원</span>
+                </div>
+            </div>            
+        </section>
+        <section>
+            <div class="row-data">
+                <div class="check2"><input type="checkbox"></div>
+                <div class="img"><img src="assets/img/header.png"></div>
+                <div class="mid-info">
+                    <div class="name">
+                        <span>초콜릿</span>
+                        <div class="box">
+                            <span>X</span>
+                        </div>
+                    </div>
+                    <div class="option">
+                        <span>1,000원</span>
+                        <input type="number" min="1" max="10" step="1" value="1">
+                    </div>
+                </div>
+                <div class="price">
+                    <span>1,000원</span>
+                </div>
+            </div>            
+        </section>
+        <section>
+            <div class="row-data">
+                <div class="check2"><input type="checkbox"></div>
+                <div class="img"><img src="assets/img/header.png"></div>
+                <div class="mid-info">
+                    <div class="name">
+                        <span>초콜릿</span>
+                        <div class="box">
+                            <span>X</span>
+                        </div>
+                    </div>
+                    <div class="option">
+                        <span>1,000원</span>
+                        <input type="number" min="1" max="10" step="1" value="1">
+                    </div>
+                </div>
+                <div class="price">
+                    <span>1,000원</span>
+                </div>
+            </div>            
+        </section>
+    </div>
+    <p>총 상품가격 <b>3,000</b> 원 
+        <label for="select">사용가능한 쿠폰
+            <select id="select">
+                <option value="30%">30% 할인</option>
+                <option value="30%">100원 할인</option>
+             </select>
+            </lebel>
+    </p>
+    <form class="main">
+        <div style="text-align: center;">
+            <button class="btn">구매하기</button>
+        </div>    
+    </form>
+<footer></footer>
+</body>
+</html>
+

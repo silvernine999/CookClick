@@ -45,12 +45,12 @@ body {
 }
 
 .like input[type="checkbox"]:checked + span:before {
-    content: '♥';
+    content: '❤︎';
     color: red;
 }
 
 .like input[type="checkbox"]:not(:checked) + span:before {
-    content: '♡';
+    content: '❤︎';
     color: black;
 }
 

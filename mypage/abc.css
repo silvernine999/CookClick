@@ -7,7 +7,12 @@
 *{
   margin: 0;
 }
-
+hr{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 #up_profile {
   width: 100%;

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>장바구니</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <div id="topmenu">
+        <div>
+            <a href="write.html">Write</a>
+            <a href="event.html">Event</a>
+            <a href="like.html">Like</a>
+            <a href="cart.html">Cart</a>
+            <a href="maypage.html">MyPage</a>
+        </div>
+        <div>
+            <a href="login.html">Sign in</a>
+            <a href="agree.html">Sign up</a>
+        </div>
+    </div>
+    <header>
+        <a href="index.html">CookClick</a>
+        <form>
+            <input type="text" placeholder="레시피 검색..." name="search">
+            <button type="submit">검색</button>
+        </form>
+    </header>
+
+    <main>
+        <h1>장바구니</h1>
+        <hr>
+
+        <div class="cart-container" style="overflow: scroll; height: 550px;">
+            <section>
+                <div class="check">
+                    <input type="checkbox"> 모두선택
+                </div>
+                <div class="row-data">
+                    <div class="check2"><input type="checkbox"></div>
+                    <div class="img"><img src="assets/img/header.png" alt="초콜릿 이미지"></div>
+                    <div class="mid-info">
+                        <div class="name">
+                            <span>초콜릿</span>
+                            <div class="box"><span>X</span></div>
+                        </div>
+                        <div class="option">
+                            <span>1,000원</span>
+                            <input type="number" min="1" max="10" step="1" value="1">
+                        </div>
+                    </div>
+                    <div class="price">
+                        <span>1,000원</span>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+        <div class="coupon">
+            상품 쿠폰 할인
+            <select>
+                <option value="select">선택</option>
+                <option value="30">30% 할인 Coupon</option>
+                <option value="100">100원 Coupon</option>
+            </select>
+        </div>
+
+        <div class="price-summary">
+            <h1>최종 결제금액</h1>
+            <div>
+                <span>상품금액</span>
+                <span>[상품금액 표시]</span>
+            </div>
+            <hr>
+            <div>
+                <span>배송비</span>
+                <span>[배송비 표시]</span>
+            </div>
+            <hr>
+            <div>
+                <span>할인금액</span>
+                <span>[할인금액 표시]</span>
+            </div>
+            <hr>
+            <h4>
+                <span>결제금액</span>
+                <span>[결제금액 표시]</span>
+            </h4>
+        </div>
+
+        <div class="purchase">
+            <button class="btn">구매하기</button>
+        </div>
+    </main>
+
+    <footer></footer>
+</body>
+</html>

@@ -17,8 +17,8 @@
 .menu a div {
     width: 7vw;
     height: 7vw;
-    min-width: 60px;
-    min-height: 60px;
+    max-width: 150px;
+    max-height: 150px;
     border-radius: 100%;
     background-size: 100%;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);

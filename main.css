@@ -89,16 +89,23 @@ body {
     margin: 2% auto;
 }
 
-.today > a {
+.today > div {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.today > div > a {
     text-decoration: none;
     color: #545454;
     background-color: #fff;
     border: 1px solid #aaa;
     border-radius: 50px;
     padding: 5px 10px;
+    margin: 5px;
 }
 
-.today > a:hover {
+.today > div > a:hover {
     background-color: aliceblue;
 }
 

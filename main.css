@@ -112,8 +112,3 @@ body {
 .today > iframe {
     border-style: none;
 }
-
-footer {
-    height: 10vh;
-    background-color: #325c4b;
-}

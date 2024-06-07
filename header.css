@@ -30,11 +30,14 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    padding-bottom: 10vh;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 150px;
     box-sizing: border-box;
 }
 header a {
+    line-height: 100%;
+    display: inline-block;
     color: #fff;
     font-family: "Noto Sans KR", Helvetica, "Helvetica Neue", Arial, "sans-serif";
     font-size: 56pt;

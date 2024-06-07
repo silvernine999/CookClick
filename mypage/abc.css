@@ -54,7 +54,8 @@ body {
 h2 {
   font-size: 30px;
   text-align: center;
-  padding: 4% 0px;
+  margin-bottom: 30px;
+  margin-top: 50px;
   letter-spacing: 1px;
 }
 

@@ -21,6 +21,8 @@
 }
 
 header {
+    height: 50vh;
+    min-height: 300px;
     background-image:url(images/header.png);
     background-size: cover;
     background-position: center center;
@@ -29,8 +31,8 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 50vh;
-    min-height: 300px;
+    padding-bottom: 10vh;
+    box-sizing: border-box;
 }
 header a {
     color: #fff;

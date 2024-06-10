@@ -174,7 +174,7 @@ label {
     min-width: 500px;
     margin: 1%;
 }
-.price-summary div, h4 {
+.price-summary div, .price-summary h4 {
     width: 30%;
     min-width: 500px;
     display: flex;
